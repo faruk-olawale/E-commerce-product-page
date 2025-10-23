@@ -1,0 +1,375 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Kumbh Sans";
+}
+
+.header{
+    padding:2rem 5rem;
+    background-color:  hsl(0, 0%, 100%);
+    color: hsl(219, 9%, 45%);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid hsl(219, 9%, 45%);
+}
+
+nav .first-side{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 2rem;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+}
+
+nav ul li{
+ padding-bottom: 2rem;
+ cursor: pointer;
+ border-bottom: 5px solid transparent;
+}
+
+nav ul li:hover{
+    border-bottom: 5px solid hsl(26, 100%, 55%);
+}
+
+nav .second-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+#topcart{
+    position: absolute;
+    top: 35px;
+    left: 84.5%;
+    background-color: hsl(26, 100%, 55%);
+    padding: 2px 12px;
+    border-radius: 7px;
+    font-size: 10px;
+    color: hsl(0, 0%, 100%);
+    display: none;
+}
+
+#menu-icon{
+    display: none;
+}
+nav .second-side img{
+    width: 20%;
+    cursor: pointer;
+}
+#avater{
+    border: 2px solid transparent;
+} 
+#avater:hover{
+    border: 2px solid hsl(26, 100%, 55%);
+    border-radius: 50%;
+}
+article{
+    width: 25%;
+    height: 30vh;
+    background-color:hsl(0, 0%, 100%);
+    box-shadow:0px 10px 10px -5px  hsl(219, 9%, 45%);
+    position: absolute;
+    left: 68%;
+    top: 13%;
+    color: #000;
+    border-radius: 5px;
+    display: none;
+}
+
+article section{
+    display: none;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+article #cart{
+    padding:15px 0  15px 15px;
+    border-bottom: 1px solid hsl(219, 9%, 45%);
+}
+
+article aside{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    color: hsl(219, 9%, 45%);
+}
+
+article aside img{
+    width: 15%;
+    border-radius: 4px;
+}
+#delete{
+    width: 6%;
+    height: 50%;
+    cursor: pointer;
+}
+
+article button{
+    margin: auto;
+    width: 85%;
+    height: 7vh;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(26, 100%, 55%);
+}
+
+span{
+    color: #000;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+#countupdating{
+    color: hsl(219, 9%, 45%);
+}
+
+article div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+article div p{
+    padding-top: 20px;
+    color:hsl(219, 9%, 45%);
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+main .first-section{
+    padding: 1rem;
+    flex: 1;
+}
+
+main .first-section #first{
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+main .first-section #second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+main .first-section #second img{
+   width: 20%;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+main .first-section #second #second-item1{
+    border: 2px solid hsl(26, 100%, 55%);
+    opacity: 30%;
+} 
+
+/* #image-preview{
+    position: absolute;
+    top: 13%;
+    left: 30%;
+    transform: translate(-50, -50);
+    height: 100vh;
+    width: 40%;
+    display: none;
+}
+#image-preview aside{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+#close{
+    float:right;
+} */
+
+
+main .second-section{
+    flex: 1;
+    padding: 3rem;  
+}
+
+main .second-section p{
+    padding: 1rem 0;
+}
+main .second-section h3{
+    display: inline-block;
+    margin-right: 8px;
+    color: hsl(0, 0%, 0%);
+}
+
+main .second-section h1{
+    color: hsl(0, 0%, 0%);
+    font-size: 3rem;
+    
+}
+main .second-section #text{
+    font-size: 18px;
+    line-height: 1.7rem;
+}
+main .second-section span{
+    display: inline-block;
+    padding:2px 0.3rem;
+    background-color: hsl(0, 0%, 0%);
+    border-radius: 2px;
+    font-size: 12px;
+    color: hsl(0, 0%, 100%);
+}
+#stroke-text{
+    text-decoration: line-through;
+}
+
+.AddtoCart-section{
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    color: hsl(0, 0%, 0%);
+}
+#AddtoCart-sectionRight{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+    background-color: hsl(220, 14%, 75%);
+    border-radius: 8px;
+    padding: 0 15px;
+    cursor: pointer;
+    
+}
+
+#AddtoCart-sectionLeft{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    background-color: hsl(26, 100%, 55%);
+    border-radius: 10px;
+    padding: 0 35px;
+    cursor: pointer;
+}
+
+#mobilenav-section{
+    display: none;
+}
+
+
+
+@media screen and (max-width:700px){
+    .header{
+        padding: 0;
+    }
+    main{
+        flex-direction:column;
+        flex-wrap: wrap;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        padding-top: 1rem;
+        padding-left: 0.5rem;
+    }
+    nav ul{
+        display: none;
+    }
+
+    #topcart{
+    left: 68%;
+    top: 7px;
+    }
+
+    nav .first-side{
+    gap: 1rem;
+    }
+
+   #menu-icon{
+    display: flex;
+    width: 10%;
+   }
+
+   nav .second-side img{
+    width: 15%;
+   }
+   
+   .first-side img{
+    width: 60%;
+   }
+
+   #mobilenav-section{
+    display: none;
+    position: absolute;
+    transform: translate(50, 50);
+    min-height: 200vh;
+    width: 50%;
+    background-color: hsl(0, 0%, 100%);
+    z-index: 1;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+
+ #mobilenav-section ul{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    gap: 1rem;
+    color: hsl(0, 0%, 0%);
+ }
+
+   article{
+    width: 90%;
+    left: 5%;
+    height: 40vh;
+    border-radius: 8px;
+   }
+   
+    main .second-section{
+    padding: 1rem;  
+    }
+    /* main .first-section #second{
+        display: none;
+    } */
+
+    .AddtoCart-section{
+        flex-direction: column;
+    }
+
+    #stroke-text{
+        display: inline-block;
+    }
+
+    main .second-section h1{
+        font-size: 2rem;
+    }
+    nav{
+        border-bottom: none;
+    }
+    main .first-section #first{
+    margin: 0%;
+}
+}
+
