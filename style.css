@@ -374,5 +374,8 @@ main .second-section span{
     main .first-section #first{
     margin: 0%;
 }
+   #AddtoCart-sectionRight img{
+    width: 8%;
+   }
 }
 
