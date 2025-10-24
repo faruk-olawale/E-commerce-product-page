@@ -43,6 +43,10 @@ Emptycarticon.onclick = function(){
     } else {
      cartsection.style.display ="none";  
     }
+      window.scrollTo({
+      top:0,
+      behavior:"smooth"
+     });
 }
 
 AddtoCartsectionLeft.onclick = function(){
