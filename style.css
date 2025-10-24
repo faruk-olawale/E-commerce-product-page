@@ -332,7 +332,7 @@ main .second-section span{
 
    #mobilenav-section{
     display: none;
-    position: absolute;
+    position: fixed;
     transform: translate(50, 50);
     min-height: 200vh;
     width: 50%;
