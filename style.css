@@ -253,7 +253,7 @@ main .second-section span{
     justify-content: space-between;
     gap: 2rem;
     align-items: center;
-    background-color: hsl(220, 14%, 75%);
+      background-color: hsl(25, 100%, 94%);
     border-radius: 8px;
     padding: 0 15px;
     cursor: pointer;
@@ -265,10 +265,13 @@ main .second-section span{
     justify-content: center;
     gap: 1rem;
     align-items: center;
-    background-color: hsl(26, 100%, 55%);
+    background-color: hsl(25, 100%, 94%);
     border-radius: 10px;
     padding: 0 35px;
     cursor: pointer;
+}
+#AddtoCart-sectionLeft:hover{
+    background-color: hsl(26, 100%, 55%);
 }
 
 #mobilenav-section{
@@ -307,7 +310,7 @@ main .second-section span{
 
     #topcart{
     left: 68%;
-    top: 5px;
+    top: 4px;
     }
 
     nav .first-side{
@@ -381,7 +384,7 @@ main .second-section span{
     margin-top: 1rem;
 }
    #AddtoCart-sectionRight img{
-    width: 10%;
+    width: 6%;
    }
 }
 
