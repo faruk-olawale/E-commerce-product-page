@@ -334,7 +334,7 @@ main .second-section span{
     min-height: 200vh;
     width: 50%;
     background-color: hsl(0, 0%, 100%);
-    z-index: 1;
+    z-index: 150;
     padding-top: 1.5rem;
     padding-left: 1.5rem;
 }
