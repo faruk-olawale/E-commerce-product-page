@@ -142,7 +142,7 @@ hambugerMenu.onclick = function(){
   mobilenaSection.style.display ="flex"
 }
 
-closehamburger.onclick = function(){
+mobilenaSection.onclick = function(){
   mobilenaSection.style.display ="none";
 }
 
