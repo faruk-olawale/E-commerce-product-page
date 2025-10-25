@@ -105,6 +105,9 @@ thumbnails.forEach((thumb, index) => {
 deleteicon.onclick = function(){
    Emptycart.style.display = "flex";
    filledcart.style.display = "none";
+   count = 0;
+   topcart.innerHTML = count;
+   countext.textContent =count;
 }
 
 plus.onclick = function(){
