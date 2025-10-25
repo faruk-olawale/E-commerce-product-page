@@ -1,4 +1,4 @@
-const avater = document.getElementById("avater")
+
 const cartsection = document.getElementById("cart-section");
 const AddtoCartsectionLeft = document.getElementById("AddtoCart-sectionLeft");
 const filledcart = document.getElementById("filled-cart");
@@ -19,7 +19,7 @@ const totalPrize = document.getElementById("total-prize");
 const calcuation = document.getElementById("calcuation");
 const countupdating = document.getElementById("countupdating");
 const topcart = document.getElementById("topcart");
-const Emptycarticon = document.getElementById("Empty-cart-icon");
+const Emptycarticon = document.getElementById("cart-icon");
 const imagePreview = document.getElementById("image-preview");
 const firstsection = document.getElementById("first-section");
 const closehamburger = document.getElementById("close");
@@ -28,14 +28,6 @@ const mobilenaSection = document.getElementById("mobilenav-section");
 const header = document.querySelector(".header");
 let count = 0;
 
-
-// avater.onclick = function(){
-//     if (cartsection.style.display === "none") {
-//      cartsection.style.display ="flex"; 
-//     } else {
-//      cartsection.style.display ="none";  
-//     }
-// }
 
 Emptycarticon.onclick = function(){
      if (cartsection.style.display === "none") {
