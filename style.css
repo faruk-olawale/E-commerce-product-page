@@ -16,6 +16,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid hsl(219, 9%, 45%);
+    gap: 2rem;
 }
 
 nav .first-side{
@@ -37,6 +38,7 @@ nav ul li{
  padding-bottom: 2rem;
  cursor: pointer;
  border-bottom: 5px solid transparent;
+ text-align: center;
 }
 
 nav ul li:hover{
@@ -47,13 +49,11 @@ nav .second-side{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
+    padding-bottom: 2rem;
 }
 
 #topcart{
-    position: absolute;
-    top: 35px;
-    left: 84.5%;
     background-color: hsl(26, 100%, 55%);
     padding: 2px 12px;
     border-radius: 7px;
@@ -65,7 +65,7 @@ nav .second-side{
 #menu-icon{
     display: none;
 }
-nav .second-side img{
+nav .second-side #avater{
     width: 20%;
     cursor: pointer;
 }
@@ -294,7 +294,6 @@ main .second-section span{
         align-items: center;
         text-align: center;
         background-color: hsl(0, 0%, 100%);
-        /* padding-top: 1rem; */
         padding-left: 0.5rem;
         height: 9vh;
         width: 100%;
@@ -307,12 +306,6 @@ main .second-section span{
     nav ul{
         display: none;
     }
-
-    #topcart{
-    left: 68%;
-    top: 4px;
-    }
-
     nav .first-side{
     gap: 1rem;
     }
@@ -322,8 +315,13 @@ main .second-section span{
     width: 10%;
    }
 
-   nav .second-side img{
+   nav .second-side #avater{
     width: 20%;
+    padding-top: 2rem;
+   }
+
+   #cart-container{
+    padding-top: 2rem;
    }
    
    .first-side img{
