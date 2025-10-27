@@ -35,10 +35,6 @@ Emptycarticon.onclick = function(){
     } else {
      cartsection.style.display ="none";  
     }
-      window.scrollTo({
-      top:0,
-      behavior:"smooth"
-     });
 }
 
 AddtoCartsectionLeft.onclick = function(){
@@ -46,6 +42,10 @@ AddtoCartsectionLeft.onclick = function(){
      Emptycart.style.display ="none"; 
      topcart.innerHTML = `${count}`;
      topcart.style.display = "flex"
+      window.scrollTo({
+      top:0,
+      behavior:"smooth"
+     });
 }
 
 // secondIMG1.onclick = function(){
